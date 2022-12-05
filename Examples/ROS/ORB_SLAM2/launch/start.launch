@@ -1,0 +1,8 @@
+<launch>  
+     <node name="ORB_SLAM2" pkg="ORB_SLAM2" type="RGBD" output="screen"
+          args="/home/dbstg/slam/ORB_SLAM2/orb2_ws/src/ORB_SLAM2-master/Vocabulary/ORBvoc.txt
+	        /home/dbstg/slam/ORB_SLAM2/orb2_ws/src/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/D435i.yaml"/>
+
+     <!--include file="$(find realsense2_camera)/launch/rs_rgbd.launch" ns="/home/dbstg/slam/d435i/d435i_ws/src"/-->
+  
+</launch>
